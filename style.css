@@ -1,0 +1,114 @@
+@charset "UTF-8";
+html, body {
+    background-color: #0093F5;
+    font-family: Verdana, Geneva, Arial, sans-serif;
+    height: 100%;
+    width: 100%;
+    background: -moz-linear-gradient(left,  #0093F5 0%, #00DFF0 100%);
+    background: -webkit-linear-gradient(left, #0093F5 0%, #00DFF0 100%);
+    background: -o-linear-gradient(left, #0093F5 0%, #00DFF0 100%);
+    background: linear-gradient(to right, #0093F5 0%,#00DFF0 100%);
+}
+h1 {
+    text-align: center;
+    color: #3B5E75;
+    background-color: #00F5B9;
+    border-radius: 10px;
+    width: 30%;
+    margin-left: auto;
+    margin-right: auto;
+}
+#wrapper {
+    width: 85%;
+    height: 85%;
+    margin-top: 5%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color:#00F5B9;
+    border-radius: 10px;
+}
+#nav{
+    padding: 0px;          
+    text-align: center;
+    height: 75%;
+    background-color:#F56801;
+    margin-left: auto;
+    margin-right: auto;
+    line-height: 75vh;  /* Match this to the height of #nav */
+}
+#nav a {
+    display: inline-block;
+    background-color: #3B5E75;
+    color: white;
+    padding: 5% 5%;
+    margin: 0px 2%;
+    border-radius: 20px;
+    line-height: normal;  
+    vertical-align: middle;  
+    text-decoration: none;
+}
+nav a:hover {
+    background-color: #3B7567;  /* gold background when hovered */
+    opacity: 0.5;
+    color: black;               
+}
+#footer {
+    height:80px;
+}
+
+label {
+    background-color: #3B5E75;
+    color: white;
+    border-radius: 5px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+input {
+    border-radius: 5px;
+    background-color: #75533B;
+    margin-left: auto;
+    margin-right: auto;
+}
+::-webkit-input-placeholder {
+    color: white;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+:-moz-placeholder {
+    color: white;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+form {
+    width: 60%;              
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+}
+form p {
+    text-align: center;        
+    margin-bottom: 15px;     
+}
+
+#projects {
+    text-align: center;
+    padding: 20px;
+    background-color:#F56801;
+}
+
+.project{
+    text-align: center;
+    background-color: #00F5B9;
+    color: #75533B;
+    border-radius: 8px;
+    display: inline-block; 
+    margin: 1%;
+    width: 45%;
+}
+
+input[type="reset"], input[type="submit"] {
+  color: white;
+}
