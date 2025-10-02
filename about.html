@@ -1,0 +1,33 @@
+<html>
+    <head>
+        <title>about me</title>
+        <link rel="stylesheet" type="text/css" href="styleabout.css">
+        <script src = "video.js" defer></script>
+    </head>
+    <body>
+        <div id="wrapper">
+             <img src="my_photo.jpg" alt="Description of photo" width="320" height="240">
+            <video controls 
+            id = "video"
+            width="320" 
+            height="240" 
+            autoplay muted
+            loop
+            poster="on_record.png"
+            preload="auto">
+            <source src="on_record.mp4" type="video/mp4">
+            <source src="on_record.ogv" type="video/ogv">
+        </video>
+        <br>
+        <button onclick= "playPause()" >Play or pause the video</button>
+        </div>  
+        <article id = "about me">
+            <h2>About Me</h2>
+            <p>Hi, my name is Gavin Dizon, and I am a student in Networking and 
+                IT security at Ontario Tech University. I am currently 
+                in my second year and I'm excited for many more! 
+                My interests include model kits, manga and portable consoles.
+            </p>
+        </article>
+    </body>
+</html>
