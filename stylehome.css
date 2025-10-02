@@ -1,0 +1,38 @@
+@charset "UTF-8";
+html, body {
+    background-color: #0093F5;
+    font-family: Verdana, Geneva, Arial, sans-serif;
+    height: 100%;
+    width: 100%;
+}
+#wrapper {
+    width: 85%;
+    height: 85%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color:#00F5B9;
+    overflow:auto;
+}
+#nav{
+    padding: 0px;          
+    text-align: center;
+    height: 75%;
+    background-color:#F56801;
+    margin-left: auto;
+    margin-right: auto;
+    line-height: 75vh;  /* Match this to the height of #nav */
+}
+#nav a {
+    display: inline-block;
+    background-color: #3B5E75;
+    color: white;
+    padding: 5% 5%;
+    margin: 0px 2%;
+    text-decoration: none;
+    border-radius: 5px;
+    line-height: normal;  /* Reset line-height for the links */
+    vertical-align: middle;  /* Align links in the middle */
+}
+#footer {
+    height:80px;
+}
