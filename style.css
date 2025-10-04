@@ -108,7 +108,7 @@ form p {
     background-color: #00F5B9;
     color: #386C70;
     border-radius: 8px;
-    display: inline-block; 
+    display: inline-block; /*this makes sure that the projects sit side by side*/
     margin: 1%;
     width: 45%;
 }
@@ -124,8 +124,7 @@ input[type="reset"], input[type="submit"] {
 }
 .photovideo figure,
 .photovideo video{
-    display: inline-block;  
-    vertical-align: middle; 
+    display: inline-block;  /* makes photo and video sit side by side */
     background-color: #386C70;
     border-radius: 10px;
     margin-left: auto;

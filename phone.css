@@ -37,7 +37,7 @@
     }
     #nav{
         padding: 10px;          
-        text-align: center;
+        text-align: center; 
         height: 75%;
         background-color:blue;
         margin-left: auto;
@@ -51,7 +51,6 @@
         margin-right: auto;
         border-radius: 20px;
         line-height: normal;  
-        vertical-align: middle;  
         text-decoration: none;
     }
     nav a:hover {
@@ -92,7 +91,7 @@ textarea {
 }
 
 .project{
-    text-align: center;
+    text-align: center; 
     background-color: blue;
     color: white;
     border-radius: 8px;
@@ -104,7 +103,6 @@ textarea {
 .photovideo figure,
 .photovideo video{
     display: inline-block;  
-    vertical-align: middle; 
     background-color: #386C70;
     border-radius: 10px;
     margin-left: auto;

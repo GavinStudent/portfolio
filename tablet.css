@@ -40,7 +40,6 @@ h1,h2,h3,h4,h5,h6,p,li {
     text-decoration: none;
     border-radius: 5px;
     line-height: normal;
-    vertical-align: middle;
 }
 
 label {
@@ -106,8 +105,7 @@ input[type="reset"], input[type="submit"] {
 }
 .photovideo figure,
 .photovideo video{
-    display: inline-block;  /* sit side by side */
-    vertical-align: middle; /* align centers */
+    display: inline-block;
     margin: 10px;
 }
 
