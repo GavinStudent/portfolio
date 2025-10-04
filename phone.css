@@ -1,0 +1,134 @@
+@charset "UTF-8";
+    body {
+        background-color: orange;
+        font-family: Verdana, Geneva, Arial, sans-serif;
+        padding: 0px;
+        margin: 0px;
+    }
+
+    h1,h2,h3,h4,h5,h6,p,li {
+        margin-left: 15px;
+        margin-top: 0px;
+    }
+
+    #wrapper {
+        width: 95%;;
+        height: 700px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    background-color: lightblue; 
+    overflow: auto;
+    border-radius: 10px;
+    }
+
+    #footer {
+        height: 80px;
+        background-color: black;
+        color: white;
+    }
+    button {
+        background-color: #3B5E75;
+        color: white;
+        border-radius: 5px;
+        width: 10%;
+        margin-left: 80%;
+        margin-right: auto;
+    }
+    #nav{
+        padding: 10px;          
+        text-align: center;
+        height: 75%;
+        background-color:blue;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    #nav a {
+        background-color: #3B5E75;
+        color: white;
+        padding: 10px;
+        margin-left: auto;
+        margin-right: auto;
+        border-radius: 20px;
+        line-height: normal;  
+        vertical-align: middle;  
+        text-decoration: none;
+    }
+    nav a:hover {
+        background-color: #3B7567;  
+        opacity: 0.5;
+        color: black;               
+    }   
+    label {
+        background-color: #3B5E75;
+        color: white;
+        border-radius: 5px;
+        margin-left: auto;
+        margin-right: auto;
+        width: 10%;
+}
+    input {
+        border-radius: 5px;
+        background-color: #75533B;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+        height: 5%;
+}
+
+textarea {
+    border-radius: 5px;
+    background-color: white;
+    margin-left: auto;
+    margin-right: auto;
+    width: 65%;
+    height: 5%;
+}
+
+#projects {
+    text-align: center;
+    padding: 10px;
+    background-color:slategrey;
+}
+
+.project{
+    text-align: center;
+    background-color: blue;
+    color: white;
+    border-radius: 8px;
+    display: inline-block; 
+    margin: 1%;
+    width: 30;
+}
+
+.photovideo figure,
+.photovideo video{
+    display: inline-block;  
+    vertical-align: middle; 
+    background-color: #386C70;
+    border-radius: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+    height: 55%;
+}
+
+figcaption{
+    background-color: #F56801;
+    border-radius: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 55%;
+    color: white;
+}
+
+#aboutme{
+    background-color: #386C70;
+    border-radius: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 85%;
+    text-align: center;
+    color: white;   
+    
+}

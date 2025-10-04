@@ -1,33 +1,43 @@
 <html>
     <head>
         <title>about me</title>
-        <link rel="stylesheet" type="text/css" href="style.css">
+        <link href="style.css" rel="stylesheet" type="text/css" media="only screen and (min-width:960px)">
+        <link href="tablet.css" rel="stylesheet" type="text/css" media="only screen and (min-width:481px) and (max-width:960px)">
+        <link href="phone.css" rel="stylesheet" type="text/css" media="only screen and (max-width:480px)">
         <script src = "video.js" defer></script>
     </head>
     <body>
         <div id="wrapper">
-             <img src="my_photo.jpg" alt="Description of photo" width="320" height="240">
+            <div class = "photovideo">
+            <figure>
+                <img src="IMG_3111(2).jpg" alt="Description of photo" width="300" height="300">
+                <figcaption>The creator of this website</figcaption>
+            </figure>
             <video controls 
             id = "video"
             width="320" 
             height="240" 
-            autoplay muted
             loop
-            poster="on_record.png"
+            poster="Screenshot 2025-10-03 181013.jpg"
             preload="auto">
-            <source src="on_record.mp4" type="video/mp4">
-            <source src="on_record.ogv" type="video/ogv">
-        </video>
-        <br>
-        <button onclick= "playPause()" >Play or pause the video</button>
-        </div>  
-        <article id = "about me">
+            <source src="IMG_5006.mp4" type="video/mp4">
+            <source src="IMG_5006.ogv" type="video/ogv">
+            </video>
+            </div>
+            <br>
+            <button onclick= "playPause()" >Play or pause the video</button>
+         <article id = "aboutme">
             <h2>About Me</h2>
             <p>Hi, my name is Gavin Dizon, and I am a student in Networking and 
                 IT security at Ontario Tech University. I am currently 
                 in my second year and I'm excited for many more! 
                 My interests include model kits, manga and portable consoles.
             </p>
+        </div>  
+       
         </article>
+        <footer>
+            <p> &copy; Gavin Dizon @gavinpaul.dizon@ontariotechu.net</p>
+        </footer>
     </body>
 </html>

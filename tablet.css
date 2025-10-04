@@ -1,0 +1,181 @@
+@charset "UTF-8";
+
+body {
+    background-color: blue;
+    font-family: Verdana, Geneva, Arial, sans-serif;
+    padding: 0px;
+    margin: 0px;
+}
+
+h1,h2,h3,h4,h5,h6,p,li {
+    margin-left: 15px;
+    margin-top: 0px;
+}
+
+#wrapper {
+    width: 90%;
+    height: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: slategrey;
+    border-radius: 10px;
+}
+
+#nav {
+    padding: 15px;
+    text-align: center;
+    height: 75%;              
+    background-color: #F56801; 
+    margin-left: auto;
+    margin-right: auto;
+    line-height: 75vh;        
+}
+
+#nav a {
+    display: inline-block;
+    background-color: #3B5E75;
+    color: white;
+    padding: 5% 5%;
+    margin: 0px 2%;
+    text-decoration: none;
+    border-radius: 5px;
+    line-height: normal;
+    vertical-align: middle;
+}
+
+label {
+    background-color: #3B5E75;
+    color: white;
+    border-radius: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 10%;
+}
+
+input {
+    border-radius: 5px;
+    background-color: #75533B;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    height: 5%;
+}
+::-webkit-input-placeholder {
+    color: white;
+    margin-left: auto;
+    margin-right: auto;
+    overflow: auto;
+}
+
+:-moz-placeholder {
+    color: white;
+    margin-left: auto;
+    margin-right: auto;
+    overflow: auto;
+}
+#footer {
+    height: 80px;
+    background-color: black;
+    color: white;
+}
+
+#projects {
+    text-align: center;
+    padding: 20px;
+    background-color:#75533B;
+}
+
+.project{
+    text-align: center;
+    background-color: #00F5B9;
+    color: #386C70;
+    border-radius: 8px;
+    display: inline-block; 
+    margin: 1%;
+    width: 45%;
+}
+
+input[type="reset"], input[type="submit"] {
+  color: white;
+}
+
+.photovideo{
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+.photovideo figure,
+.photovideo video{
+    display: inline-block;  /* sit side by side */
+    vertical-align: middle; /* align centers */
+    margin: 10px;
+}
+
+figure{
+    background-color: #386C70;
+    border-radius: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+}
+
+figcaption{
+    background-color: #F56801;
+    border-radius: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 55%;
+    color: white;
+}
+video{
+    background-color: #386C70;
+    border-radius: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+    height:55%;
+}
+
+#aboutme{
+    background-color: #386C70;
+    border-radius: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 85%;
+    text-align: center;
+    color: white;   
+    
+}
+
+button {
+    background-color: #3B5E75;
+    color: white;
+    border-radius: 5px;
+    width: 10%;
+    margin-left: 80%;
+    margin-right: auto;
+}
+textarea {
+    border-radius: 5px;
+    background-color: white;
+    margin-left: auto;
+    margin-right: auto;
+    width: 75%;
+    height: 10%;
+}
+
+#projects {
+    text-align: center;
+    padding: 20px;
+    background-color:slategrey;
+}
+
+.project{
+    text-align: center;
+    background-color: orange;
+    color: black;
+    border-radius: 8px;
+    display: inline-block; 
+    margin: 1%;
+    width: 45%;
+}

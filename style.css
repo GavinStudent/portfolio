@@ -10,7 +10,7 @@ html, body {
     background: linear-gradient(to right, #0093F5 0%,#00DFF0 100%);
 }
 h1 {
-    text-align: center;
+    text-align: center; /*this centers the text inside of h1*/
     color: #3B5E75;
     background-color: #00F5B9;
     border-radius: 10px;
@@ -29,26 +29,27 @@ h1 {
 }
 #nav{
     padding: 0px;          
-    text-align: center;
+    text-align: center; /*this centers the text inside of nav*/
     height: 75%;
     background-color:#F56801;
     margin-left: auto;
     margin-right: auto;
-    line-height: 75vh;  /* Match this to the height of #nav */
+    line-height: 50vh;  /*this makes sure that the text boxes are situated in the middle of nav*/
 }
 #nav a {
-    display: inline-block;
+    display: inline-block; /*this turns the inline text of nav a into a block 
+    that can be manipulated in things like width and height, while keeping them like inline elements that stay side by side*/
     background-color: #3B5E75;
     color: white;
     padding: 5% 5%;
-    margin: 0px 2%;
+    margin-left: 2%;
+    margin-right: 2%;
     border-radius: 20px;
-    line-height: normal;  
-    vertical-align: middle;  
+    line-height: normal;  /*this makes sure that the text boxes are not too large*/
     text-decoration: none;
 }
 nav a:hover {
-    background-color: #3B7567;  /* gold background when hovered */
+    background-color: #3B7567;  
     opacity: 0.5;
     color: black;               
 }
@@ -62,6 +63,7 @@ label {
     border-radius: 5px;
     margin-left: auto;
     margin-right: auto;
+    width: 10%;
 }
 
 input {
@@ -69,6 +71,8 @@ input {
     background-color: #75533B;
     margin-left: auto;
     margin-right: auto;
+    width: 50%;
+    height: 5%;
 }
 ::-webkit-input-placeholder {
     color: white;
@@ -89,20 +93,20 @@ form {
     padding: 20px;
 }
 form p {
-    text-align: center;        
+    text-align: center;        /*this centers the text inside of the <p> in form*/
     margin-bottom: 15px;     
 }
 
 #projects {
-    text-align: center;
-    padding: 20px;
-    background-color:#F56801;
+    text-align: center; /*this centers the text inside of #projects*/
+    padding: 20px; 
+    background-color:#75533B;
 }
 
 .project{
-    text-align: center;
+    text-align: center; /*this centers the text inside of .project*/
     background-color: #00F5B9;
-    color: #75533B;
+    color: #386C70;
     border-radius: 8px;
     display: inline-block; 
     margin: 1%;
@@ -111,4 +115,58 @@ form p {
 
 input[type="reset"], input[type="submit"] {
   color: white;
+}
+
+.photovideo{
+    text-align: center; /*this centers the text inside of photovideo*/
+    margin-left: auto;
+    margin-right: auto;
+}
+.photovideo figure,
+.photovideo video{
+    display: inline-block;  
+    vertical-align: middle; 
+    background-color: #386C70;
+    border-radius: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+    height:55%;
+}
+
+figure{
+    background-color: #386C70;
+    border-radius: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+}
+
+figcaption{
+    background-color: #F56801;
+    border-radius: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 55%;
+    color: white;
+}
+
+#aboutme{
+    background-color: #386C70;
+    border-radius: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 85%;
+    text-align: center; /*this centers the text inside of aboutme*/
+    color: white;   
+    
+}
+
+button {
+    background-color: #3B5E75;
+    color: white;
+    border-radius: 5px;
+    width: 10%;
+    margin-left: 80%;
+    margin-right: auto;
 }
